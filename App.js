@@ -8,16 +8,17 @@ export default function App() {
       <Text style={styles.name}>Raman Dhaliwal</Text>
       <Text style={styles.bio}>Mobile Application Development</Text>
       <Text style={styles.bio}>University of Winnipeg</Text>
+      <Text style={styles.bio}>Course:- Development Environment</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
 
-const styles = StyleSheet.create({
+const styles= StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#95D9DA',
-    alignItems: 'Left',
+    alignItems: 'center',
     justifyContent: 'center',
   },
   name: {
