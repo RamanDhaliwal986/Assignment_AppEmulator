@@ -17,11 +17,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#95D9DA',
-    alignItems: 'center',
+    alignItems: 'Left',
     justifyContent: 'center',
   },
   name: {
-    fontSize: 20,
+    fontSize: 24,
     fontWeight: 'bold',
 },
 bio: {
