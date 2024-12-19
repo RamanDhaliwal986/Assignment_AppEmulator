@@ -7,6 +7,7 @@ export default function App() {
       <Text>Assignment 4: Building a React Native Project on Android Emulator with Source Control</Text>
       <Text style={styles.name}>Raman Dhaliwal</Text>
       <Text style={styles.bio}>Post-Graduate Student in Mobile App Development</Text>
+      <Text style={styles.bio}>University of Winnipeg</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -15,7 +16,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#f0f8ff'',
     alignItems: 'center',
     justifyContent: 'center',
   },
